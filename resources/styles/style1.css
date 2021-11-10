@@ -1,6 +1,7 @@
 *,body{
     margin:0;
     padding: 0;
+    
 }
 
 header{
@@ -31,6 +32,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+.download-div
 .download-btn{
     background-color: rgb(74, 87, 197);
     padding: 10px;
@@ -84,6 +86,7 @@ a{
     padding-bottom: 70px;
     width: 20%;
     margin: auto;
+    padding-top: 105px;
 }
 
 .blurb{
@@ -183,26 +186,28 @@ a{
     padding-top: 20px;
 }
 
-.intro p{
+.fac-name{
     
     width: 80%;
     margin: auto;
-    color: white;
+    color: rgb(103, 117, 235);
     align-tracks: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: 0;
-    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center
 }
-.intro p a{
-    text-decoration: underline;
-    color: blue;
+.desig{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color:  rgb(142, 147, 214);
+
 }
 
 footer{
     
     margin: auto;
-    height: 400px;
+    height: 100px;
     background-color: #333b85;
     display: flex;
     align-items: center;
@@ -211,8 +216,18 @@ footer{
 
 #last{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 90px;
+    /* font-size: 30px; */
+
+    
 }   
+#last ul{
+    list-style-type: none;
+    display: flex;
+}
+#last li{
+    padding:20px;
+    font-size: 40px;
+}
 
 
 .modal{
