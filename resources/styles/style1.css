@@ -139,7 +139,7 @@ a{
 
 .numbers{
     font-size: 70px;
-    color:#333b85;
+    color:rgb(74, 87, 197);
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     /* border: 2px solid purple; */
@@ -168,17 +168,61 @@ a{
 
 
 #sec-2{
-    background-color: rgb(245, 242, 238);
-    padding-top: 50px;
+    background-color: #f4ebe1;
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 
 .intro-row{
     /* border: 1px solid cyan; */
-    margin-top: 40px;
+    margin-top: 10px;
     height: auto;
     padding-bottom: 50px;
+    margin: 5px;
 }
-.photo{
+
+.ques-cont{
+    /* border: 1px solid red; */
+}
+.ques{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.ques p{
+    /* color: rgb(143, 238, 222); */
+    color: #db633a;
+    text-align:start;
+    
+}
+
+
+.ans{
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.ans ul{
+    list-style-type:"-  ";
+    
+}
+.ans li{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 19%;
+    margin-top: 5px;
+    text-align: left;
+    color: rgb(111, 101, 207);
+    
+}
+/* .photo{
     
     width: 80%;
     margin: auto;
@@ -207,7 +251,7 @@ a{
     font-size: 23px;
     color:  rgb(142, 147, 214);
 
-}
+} */
 
 footer{
     
@@ -232,7 +276,6 @@ footer{
 #last li{
     padding:20px;
     font-size: 40px;
-    color: white;
 }
 
 
@@ -253,11 +296,8 @@ footer{
     height: 600px;
 }
 .p1 {
-    /* color: #8392e6; */
-    color: #7586e6;
     font-family: "Arial", Sans-serif;
     font-weight: bolder;
     font-size: 40px;
-    
   }
 
