@@ -168,7 +168,8 @@ a{
 
 
 #sec-2{
-    background-color: #f4ebe1;
+/*     background-color: #f4ebe1; */
+    background-color:black;
     padding-top: 10px;
     width: 80%;
     margin: auto;
