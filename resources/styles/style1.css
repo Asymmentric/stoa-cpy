@@ -251,5 +251,9 @@ footer{
     width:100%;
     height: 600px;
 }
-
+.p1 {
+    font-family: "Arial", Sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+  }
 
