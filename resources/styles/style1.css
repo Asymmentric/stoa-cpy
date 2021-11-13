@@ -35,9 +35,9 @@ header{
 
 .download-btn{
     background-color: rgb(74, 87, 197);
-    padding: 10px;
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .download-btn:active{
@@ -121,7 +121,7 @@ nav ul li:active{
 .download-div{
     padding-top: 20px;
     padding-bottom: 70px;
-    width: 20%;
+    width: 10%;
     margin: auto;
     padding-top: 105px;
 }
@@ -296,6 +296,7 @@ footer{
 }
 
 #last{
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* font-size: 30px; */
 
@@ -331,5 +332,12 @@ footer{
     font-family: "Arial", Sans-serif;
     font-weight: bolder;
     font-size: 40px;
+  }
+
+.p2 {
+    font-family: "Arial", Sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
   }
 
