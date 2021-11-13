@@ -48,6 +48,38 @@ a{
     color: white;
 }
 
+nav{
+    border: 1px solid black;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgb(74, 87, 197);
+    margin: auto;
+    border: 1px solid green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin: 50px;
+    
+    
+}
+nav ul li:active{
+    background-color: cadetblue;
+}
 #sec-1{
     /* background: rgb(212, 223, 233); */
     
