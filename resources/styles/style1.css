@@ -50,7 +50,9 @@ a{
     text-decoration: none;
     color: white;
 }
-
+#top-btn{
+    width:80%;
+}
 nav{
     border: 1px solid black;
     display: flex;
