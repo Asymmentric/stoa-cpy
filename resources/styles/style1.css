@@ -39,6 +39,8 @@ header{
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     cursor: pointer;
+    width:10%;
+    margin:auto;
 }
 .download-btn:active{
     background-color: cadetblue;
